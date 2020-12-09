@@ -2,7 +2,7 @@ import 'UserModel.dart';
 
 class Message {
   final User sender;
-  final String time; // Would usually be type DateTime or Firebase Timestamp in production apps
+  final String time;
   final String text;
   final bool unread;
 
@@ -19,49 +19,49 @@ List<Message> chats = [
   Message(
     sender: currentUser,
     time: '5:30 PM',
-    text: 'Hey dude! Even dead I\'m the hero. Love you 3000 guys.',
+    text: 'You know, sometimes I get so flushed, it\'s interesting. Do your palms ever itch?',
     unread: true,
   ),
   Message(
     sender: daleCooper,
-    time: '4:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    time: '4:20 PM',
+    text: 'Damn fine coffee.',
     unread: true,
   ),
   Message(
     sender: shellyJohnson,
-    time: '3:30 PM',
-    text: 'WOW! this soul world is amazing, but miss you guys.',
+    time: '2:37 PM',
+    text: 'Leo doesn\'t talk, he hits. He was so great at first, you know. ...',
     unread: false,
   ),
   Message(
     sender: bob,
     time: '2:30 PM',
-    text: 'I\'m exposed now. Please help me to hide my identity.',
+    text: 'Fire walk with me.',
     unread: true,
   ),
   Message(
     sender: bobbyBriggs,
     time: '1:30 PM',
-    text: 'HULK SMASH!!',
+    text: 'Laura had problems',
     unread: false,
   ),
   Message(
     sender: donnaHayward,
-    time: '12:30 PM',
-    text: 'I\'m hitting gym bro. I\'m immune to mortal deseases. Are you coming?',
+    time: '12:40 PM',
+    text: 'James is so handsome',
     unread: false,
   ),
   Message(
     sender: lauraPalmer,
-    time: '11:30 AM',
-    text: 'My twins are giving me headache. Give me some time please.',
+    time: '11:10 AM',
+    text: 'My dad killed me',
     unread: false,
   ),
   Message(
     sender: lelandPalmer,
-    time: '12:45 AM',
-    text: 'You\'re always special to me nick! But you know my struggle.',
+    time: '12:55 AM',
+    text: 'Through the dark of futures past, the magician longs to see',
     unread: false,
   ),
 ];
@@ -70,50 +70,50 @@ List<Message> chats = [
 List<Message> messages = [
   Message(
     sender: logLady,
-    time: '5:30 PM',
-    text: 'Hey dude! Event dead I\'m the hero. Love you 3000 guys.',
+    time: '5:17 PM',
+    text: 'My log does not judge',
     unread: true,
   ),
   Message(
     sender: bobbyBriggs,
-    time: '4:30 PM',
-    text: 'We could surely handle this mess much easily if you were here.',
+    time: '5:38 PM',
+    text: 'Beautiful people get everything they want',
     unread: true,
   ),
   Message(
     sender: lauraPalmer,
-    time: '3:45 PM',
-    text: 'Take care of peter. Give him all the protection & his aunt.',
+    time: '3:48 PM',
+    text: 'I\ll see you again in 25 years',
     unread: true,
   ),
   Message(
     sender: logLady,
-    time: '3:15 PM',
-    text: 'I\'m always proud of her and blessed to have both of them.',
+    time: '4:15 PM',
+    text: 'The answer is within the question',
     unread: true,
   ),
   Message(
     sender: daleCooper,
-    time: '2:30 PM',
-    text: 'But that spider kid is having some difficulties due his identity reveal by a blog called daily bugle.',
+    time: '5:20 PM',
+    text: 'This must be where pies go when they die',
     unread: true,
   ),
   Message(
     sender: bob,
-    time: '2:30 PM',
-    text: 'Pepper & Morgan is fine. They\'re strong as you. Morgan is a very brave girl, one day she\'ll make you proud.',
+    time: '2:22 PM',
+    text: 'Everybody run!',
     unread: true,
   ),
   Message(
     sender: donnaHayward,
     time: '2:30 PM',
-    text: 'Yes Tony!',
+    text: 'It\'s like I\'m having the most beautiful dream and the most terrible nightmare at once.',
     unread: true,
   ),
   Message(
     sender: logLady,
     time: '2:00 PM',
-    text: 'I hope my family is doing well.',
+    text: 'I Do Not Introduce The Log',
     unread: true,
   ),
 ];

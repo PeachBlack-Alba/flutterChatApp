@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'TwinPeaks Hangout',
       theme: ThemeData(
-        primaryColor: Color(0xFF01afbd),
+        primaryColor: Colors.black,
       ),
       home: HomeScreen(),
     );

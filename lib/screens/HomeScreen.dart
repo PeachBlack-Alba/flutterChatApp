@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       appBar: AppBar(
         elevation: 8,
         leading: IconButton(
@@ -55,12 +55,12 @@ class HomeScreen extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(40)),
                       border: Border.all(
                         width: 2,
-                        color: Theme.of(context).primaryColor,
+                        color:Colors.deepPurple,
                       ),
                       // shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.grey.withOpacity(0.5),
+                          color: Colors.deepOrange.withOpacity(1),
                           spreadRadius: 2,
                           blurRadius: 5,
                         ),
@@ -70,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                       shape: BoxShape.circle,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.grey.withOpacity(0.5),
+                          color: Colors.deepPurple.withOpacity(0.5),
                           spreadRadius: 2,
                           blurRadius: 5,
                         ),
@@ -98,6 +98,7 @@ class HomeScreen extends StatelessWidget {
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
+                                    color: Colors.deepPurple
                                   ),
                                 ),
                                 chat.sender.isOnline
@@ -107,7 +108,7 @@ class HomeScreen extends StatelessWidget {
                                   height: 7,
                                   decoration: BoxDecoration(
                                     shape: BoxShape.circle,
-                                    color: Theme.of(context).primaryColor,
+                                    color: Colors.deepOrange,
                                   ),
                                 )
                                     : Container(
@@ -120,7 +121,7 @@ class HomeScreen extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 11,
                                 fontWeight: FontWeight.w300,
-                                color: Colors.black54,
+                                color: Colors.white,
                               ),
                             ),
                           ],
@@ -134,7 +135,7 @@ class HomeScreen extends StatelessWidget {
                             chat.text,
                             style: TextStyle(
                               fontSize: 13,
-                              color: Colors.black54,
+                              color: Colors.white,
                             ),
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,
